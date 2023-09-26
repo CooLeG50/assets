@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+   position: fixed;
+   width: 100%;
+   background-color: rgb(7, 58, 103);  
+}
+nav img{
+    position: absolute;
+   margin-top: 100px;
+    top: 20px;
+    z-index: 1;
+    width: 380px;
+    height: 220px; 
+}
+.menu-desktop{
+margin: 0;
+padding: 0;
+text-align: right;
+animation-name: unset;
+}
+.menu-desktop li{
+    list-style: none;
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+.menu-desktop li a{
+    padding: 30px 40px;
+    text-decoration: none;
+    color:wheat;
+    display: inline-block;
+    margin-right: -3px;
+    font-size: larger;
+    letter-spacing: 0.60;
+}
+.menu-desktop li a:hover{
+    background-color: lightsalmon;
+}
+header{
+    width: 100%;
+    height: 800px;
+    background-image: url(assets/img/fundo_pizzaria.png);
+    background-repeat: none;
+    background-size: cover;
+
+}
+h1 h2 {
+    text-align: center;
+}
+body{
+background-image: url(assets/img/fundo_pizzaria.png);
+background-repeat: none;
+background-size: cover;
+}
