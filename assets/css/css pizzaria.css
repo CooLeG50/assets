@@ -10,12 +10,13 @@ nav{
    background-color: rgb(7, 58, 103);  
 }
 nav img{
-    position: absolute;
+    position:absolute;
    margin-top: 100px;
     top: 20px;
     z-index: 1;
     width: 380px;
     height: 220px; 
+    border-radius: 50%;
 }
 .menu-desktop{
 margin: 0;
@@ -41,19 +42,73 @@ animation-name: unset;
 .menu-desktop li a:hover{
     background-color: lightsalmon;
 }
+body{
+    background-image: url(../img/Fundo.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 header{
     width: 100%;
-    height: 800px;
-    background-image: url(assets/img/fundo_pizzaria.png);
-    background-repeat: none;
-    background-size: cover;
+    height: 400px;
 
 }
 h1 h2 {
     text-align: center;
 }
-body{
-background-image: url(assets/img/fundo_pizzaria.png);
-background-repeat: none;
-background-size: cover;
+
+main{}
+
+.pizza{
+    width: 33.3%;
+    float: left;
+    background-color: chocolate;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.75);
+
+}
+.pizza img{
+    position: center;
+    border: solid 10px gray;
+    border-bottom-color: rgb(69, 68, 68);
+    border-right-color: rgb(69, 68, 68);
+    border-top-color: rgb(167, 167, 167);
+    width: 99%;
+    max-height: 300px;
+    object-fit: cover;
+    text-align: center;
+    object-position: top center;
+
+}
+.pizza h2{
+
+    padding: auto;
+    text-align: center;
+    margin-bottom: none;
+    
+}
+.pizza p{
+    text-align: center;
+    padding: 5%;
+    margin-top: 1%;
+    color: black;
+    font-size: 90;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pizza a{
+    border: 10px solid rgb(133, 14, 37);
+    display: block;
+    text-align: center;
+    background-color: crimson ;
+    color: aliceblue;
+    padding: 3%;
+    text-decoration: none;
+    width: 99%
+
+}
+.pizza a:hover{
+    background-color: brown;
+}
+footer{
+    width: 200px;
+    position: static;
+    background-color: rgb(137, 57, 0);
 }
